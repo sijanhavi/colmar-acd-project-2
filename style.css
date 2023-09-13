@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+  }
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    margin: 0 24px;
+    align-items: center;
+  }
+  .navLeft {
+    height: 32px;
+    display: flex;
+    align-items: center;
+  }
+  .navLeft span#logoNameDark {
+    color: black;
+    font-weight: 700;
+  }
+  .navLeft span#logoNameLight {
+    color: grey;
+  }
+  .navRight {
+    display: flex;
+    flex-direction: row;
+  }
+  .navRight ul {
+    display: flex;
+    list-style-type: none;
+  }
+  .navRight ul li {
+    margin-left: 16px;
+  }
+  #banner {
+    display: flex;
+    height: calc(100vh - 64px);
+    background-color: #ececec;
+  }
+  #banner img {
+    margin: 32px 24px;
+    width: 60%;
+  }
+  .bannerLeft {
+    width: 40%;
+    margin: auto 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  #item1 {
+    font-weight: 500;
+    font-size: 55px;
+    margin: 24px;
+    color: #3f3c3c;
+  }
+  #item2 {
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0px 24px;
+    color: #3f3c3c;
+    line-height: 1.5;
+  }
+  #item3 {
+    width: 400px;
+    border-radius: 0%;
+    height: 40px;
+    padding: 8px;
+    margin: 24px;
+    color: white;
+    background-color: #3f3c3c;
+  }
+  #info{
+      display: flex;
+     
+  }
+  .infoLeft{
+      width: 65%;
+  }
+  .infoLeft img{
+      margin: 32px 24px;
+      width: 95%;
+  }
+  .infoLeft h1{
+      margin: 0px 24px 24px;
+      font-size: 50px;
+      color: #3f3c3c;
+  }
+  .infoLeft p{
+      margin: 0px 24px 24px;
+      color: #3f3c3c;
+      font-size: 18px;
+      line-height: 1.5;
+  }
+  .infoLeft p#emanuel{
+      font-weight: 400px;
+      font-size: 14px;
+  }
+  .infoRight{
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 32px;
+  }
+  .card{
+      padding: 16px;
+      width: 100%;
+      height: 33.33%;
+      display: flex;
+      align-items: center;
+  }
+  .card img{
+       height:100%;
+      width: 35%; 
+  }
+  .headingLine{
+  font-weight: 500;
+  margin-left: 24px;
+  margin-bottom: 8px;
+  }
+  .line2{
+  margin-left: 24px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+  }
+  .linkLine{
+  margin-left: 24px;
+  text-decoration: none;
+  color: #5454e7;
+  }
+  #courses{
+    background-color:#dfdfdf;
+  }
+  .courseHeading{
+    padding:32px 0px 16px;
+    text-align: center;
+  }
+  .container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  }
+  .courseCard{
+    border: 1px solid ;
+    width: 30%;
+    margin: 16px;  
+  }
+  .courseCard img{
+  width: 100%;
+  }
+  .cardTitle{
+    margin-top: 16px ;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-weight: 500px;
+    font-size: 25px;
+  }
+  .cardDes{
+    margin: 8px 16px;
+    line-height: 1.5;
+  }
+  .cardDes2{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 24px;
+    line-height: 1.5;
+  } 
+  .last{
+    margin-top: 30px;
+  }
+  .last h1{
+    text-align: center;
+    margin: 32px 0px;
+    color: #3f3c3c;
+  }
+  .lastContainer{
+    display: flex;
+  }
+  .lastLeft{
+    width: 60%;
+  }
+  .lastLeft video{
+    width: 95%;
+    margin-bottom: 24px; 
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .lastLeft h3{
+    margin-bottom: 8px;
+    margin-left: 24px;
+    color: #3f3c3c;
+    font-weight: 600;
+  }
+  .lastLeft p{
+    margin-left: 24px;
+    margin-bottom: 32px;
+    color: #3f3c3c;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .lastRight{
+    width: 39%;
+    margin-right: 10px;
+  }
+  .lastCard{
+    display: flex;
+  }
+  .lastCard img{
+    width: 35%;
+    padding: 16px;
+    height: 100%;
+  }
+  .content{
+    width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+  .content h3{
+    margin-bottom: 10px;
+    color: #3f3c3c;
+    font-weight: 500;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+  }
+  .footer h5{
+    color: #3f3c3c;
+    margin: 16px 24px 32px;
+    font-weight: 400;
+  }
